@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <form id="Contact" action="" method="POST">
+            <h3>Formulário</h3>
+            <fieldset> <!--- input cria uma caixa de texto que receberá dados-->
+                <input placeholder="Seu nome" type="text" tabindex="1" required autofocus> 
+            </fieldset>
+            <fieldset> <!--placeholder="texto" cria um texto indicativo dentro da caixa que sumirá quando o usuario digitar algo-->
+                <input placeholder="Seu e-mail" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Seu telefone (opcional)" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Seu site (opcional)" type="url" tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Seu e-mail" type="email" tabindex="5" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Digite a sua mensagem aqui..." type="tel" tabindex="3" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="Submit" type="Submit" id="Contact-submit" data-submit="...Sending">Cadastrar</button>
+            </fieldset>
+            <fieldset>
+                <p class="copyright">Todos os Direitos Reservados @ <a href="https://github.com/tonnmelo" target="_blank">Ton Melo</a></p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
